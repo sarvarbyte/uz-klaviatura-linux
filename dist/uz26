@@ -1,0 +1,179 @@
+// Uzbek Latin 2026 keyboard layouts for Linux (XKB)
+// Layouts: uz26(classic), uz26(direct), uz26(turkish)
+
+// Uzbek (Latin 2026, Classic)
+// Converted from MSKLC file uzlat26.klc (UzbekKeyboardSetup.exe)
+default partial alphanumeric_keys
+xkb_symbols "classic" {
+    include "us(basic)"
+    name[Group1] = "Uzbek (Latin 2026, Classic)";
+
+    key <AE01> { type[Group1]="TWO_LEVEL", [ 1, exclam ] };
+    key <AE02> { type[Group1]="TWO_LEVEL", [ 2, at ] };
+    key <AE03> { type[Group1]="TWO_LEVEL", [ 3, numbersign ] };
+    key <AE04> { type[Group1]="TWO_LEVEL", [ 4, dollar ] };
+    key <AE05> { type[Group1]="TWO_LEVEL", [ 5, percent ] };
+    key <AE06> { type[Group1]="TWO_LEVEL", [ 6, asciicircum ] };
+    key <AE07> { type[Group1]="TWO_LEVEL", [ 7, ampersand ] };
+    key <AE08> { type[Group1]="TWO_LEVEL", [ 8, asterisk ] };
+    key <AE09> { type[Group1]="TWO_LEVEL", [ 9, parenleft ] };
+    key <AE10> { type[Group1]="TWO_LEVEL", [ 0, parenright ] };
+    key <AE11> { type[Group1]="TWO_LEVEL", [ minus, underscore ] };
+    key <AE12> { type[Group1]="TWO_LEVEL", [ equal, plus ] };
+    key <AD01> { type[Group1]="ALPHABETIC", [ q, Q ] };
+    key <AD02> { type[Group1]="ALPHABETIC", [ w, W ] };
+    key <AD03> { type[Group1]="ALPHABETIC", [ e, E ] };
+    key <AD04> { type[Group1]="ALPHABETIC", [ r, R ] };
+    key <AD05> { type[Group1]="ALPHABETIC", [ t, T ] };
+    key <AD06> { type[Group1]="ALPHABETIC", [ y, Y ] };
+    key <AD07> { type[Group1]="ALPHABETIC", [ u, U ] };
+    key <AD08> { type[Group1]="ALPHABETIC", [ i, I ] };
+    key <AD09> { type[Group1]="FOUR_LEVEL_ALPHABETIC", [ o, O, odiaeresis, Odiaeresis ] };
+    key <AD10> { type[Group1]="ALPHABETIC", [ p, P ] };
+    key <AD11> { type[Group1]="TWO_LEVEL", [ bracketleft, braceleft ] };
+    key <AD12> { type[Group1]="TWO_LEVEL", [ bracketright, braceright ] };
+    key <AC01> { type[Group1]="ALPHABETIC", [ a, A ] };
+    key <AC02> { type[Group1]="FOUR_LEVEL_ALPHABETIC", [ s, S, scedilla, Scedilla ] };
+    key <AC03> { type[Group1]="ALPHABETIC", [ d, D ] };
+    key <AC04> { type[Group1]="ALPHABETIC", [ f, F ] };
+    key <AC05> { type[Group1]="FOUR_LEVEL_ALPHABETIC", [ g, G, gbreve, Gbreve ] };
+    key <AC06> { type[Group1]="ALPHABETIC", [ h, H ] };
+    key <AC07> { type[Group1]="ALPHABETIC", [ j, J ] };
+    key <AC08> { type[Group1]="ALPHABETIC", [ k, K ] };
+    key <AC09> { type[Group1]="ALPHABETIC", [ l, L ] };
+    key <AC10> { type[Group1]="TWO_LEVEL", [ semicolon, colon ] };
+    key <AC11> { type[Group1]="FOUR_LEVEL", [ apostrophe, quotedbl, U02BC, U02BB ] };
+    key <TLDE> { type[Group1]="TWO_LEVEL", [ grave, asciitilde ] };
+    key <BKSL> { type[Group1]="TWO_LEVEL", [ backslash, bar ] };
+    key <AB01> { type[Group1]="ALPHABETIC", [ z, Z ] };
+    key <AB02> { type[Group1]="ALPHABETIC", [ x, X ] };
+    key <AB03> { type[Group1]="FOUR_LEVEL_ALPHABETIC", [ c, C, ccedilla, Ccedilla ] };
+    key <AB04> { type[Group1]="ALPHABETIC", [ v, V ] };
+    key <AB05> { type[Group1]="ALPHABETIC", [ b, B ] };
+    key <AB06> { type[Group1]="ALPHABETIC", [ n, N ] };
+    key <AB07> { type[Group1]="ALPHABETIC", [ m, M ] };
+    key <AB08> { type[Group1]="TWO_LEVEL", [ comma, less ] };
+    key <AB09> { type[Group1]="TWO_LEVEL", [ period, greater ] };
+    key <AB10> { type[Group1]="TWO_LEVEL", [ slash, question ] };
+    key <LSGT> { type[Group1]="TWO_LEVEL", [ backslash, bar ] };
+
+    include "level3(ralt_switch)"
+};
+
+// Uzbek (Latin 2026, Direct)
+// Converted from MSKLC file uzlt26d.klc (UzbekKeyboardSetup.exe)
+partial alphanumeric_keys
+xkb_symbols "direct" {
+    include "us(basic)"
+    name[Group1] = "Uzbek (Latin 2026, Direct)";
+
+    key <AE01> { type[Group1]="TWO_LEVEL", [ 1, exclam ] };
+    key <AE02> { type[Group1]="TWO_LEVEL", [ 2, at ] };
+    key <AE03> { type[Group1]="TWO_LEVEL", [ 3, numbersign ] };
+    key <AE04> { type[Group1]="TWO_LEVEL", [ 4, dollar ] };
+    key <AE05> { type[Group1]="TWO_LEVEL", [ 5, percent ] };
+    key <AE06> { type[Group1]="TWO_LEVEL", [ 6, asciicircum ] };
+    key <AE07> { type[Group1]="TWO_LEVEL", [ 7, ampersand ] };
+    key <AE08> { type[Group1]="TWO_LEVEL", [ 8, asterisk ] };
+    key <AE09> { type[Group1]="TWO_LEVEL", [ 9, parenleft ] };
+    key <AE10> { type[Group1]="TWO_LEVEL", [ 0, parenright ] };
+    key <AE11> { type[Group1]="TWO_LEVEL", [ minus, underscore ] };
+    key <AE12> { type[Group1]="TWO_LEVEL", [ equal, plus ] };
+    key <AD01> { type[Group1]="ALPHABETIC", [ q, Q ] };
+    key <AD02> { type[Group1]="ALPHABETIC", [ w, W ] };
+    key <AD03> { type[Group1]="ALPHABETIC", [ e, E ] };
+    key <AD04> { type[Group1]="ALPHABETIC", [ r, R ] };
+    key <AD05> { type[Group1]="ALPHABETIC", [ t, T ] };
+    key <AD06> { type[Group1]="ALPHABETIC", [ y, Y ] };
+    key <AD07> { type[Group1]="ALPHABETIC", [ u, U ] };
+    key <AD08> { type[Group1]="ALPHABETIC", [ i, I ] };
+    key <AD09> { type[Group1]="ALPHABETIC", [ o, O ] };
+    key <AD10> { type[Group1]="ALPHABETIC", [ p, P ] };
+    key <AD11> { type[Group1]="FOUR_LEVEL_SEMIALPHABETIC", [ odiaeresis, Odiaeresis, bracketleft, braceleft ] };
+    key <AD12> { type[Group1]="FOUR_LEVEL", [ bracketright, braceright, U02BC, U02BB ] };
+    key <AC01> { type[Group1]="ALPHABETIC", [ a, A ] };
+    key <AC02> { type[Group1]="ALPHABETIC", [ s, S ] };
+    key <AC03> { type[Group1]="ALPHABETIC", [ d, D ] };
+    key <AC04> { type[Group1]="ALPHABETIC", [ f, F ] };
+    key <AC05> { type[Group1]="ALPHABETIC", [ g, G ] };
+    key <AC06> { type[Group1]="ALPHABETIC", [ h, H ] };
+    key <AC07> { type[Group1]="ALPHABETIC", [ j, J ] };
+    key <AC08> { type[Group1]="ALPHABETIC", [ k, K ] };
+    key <AC09> { type[Group1]="ALPHABETIC", [ l, L ] };
+    key <AC10> { type[Group1]="FOUR_LEVEL_SEMIALPHABETIC", [ scedilla, Scedilla, semicolon, colon ] };
+    key <AC11> { type[Group1]="FOUR_LEVEL_SEMIALPHABETIC", [ gbreve, Gbreve, apostrophe, quotedbl ] };
+    key <TLDE> { type[Group1]="TWO_LEVEL", [ grave, asciitilde ] };
+    key <BKSL> { type[Group1]="TWO_LEVEL", [ backslash, bar ] };
+    key <AB01> { type[Group1]="ALPHABETIC", [ z, Z ] };
+    key <AB02> { type[Group1]="ALPHABETIC", [ x, X ] };
+    key <AB03> { type[Group1]="FOUR_LEVEL_ALPHABETIC", [ ccedilla, Ccedilla, c, C ] };
+    key <AB04> { type[Group1]="ALPHABETIC", [ v, V ] };
+    key <AB05> { type[Group1]="ALPHABETIC", [ b, B ] };
+    key <AB06> { type[Group1]="ALPHABETIC", [ n, N ] };
+    key <AB07> { type[Group1]="ALPHABETIC", [ m, M ] };
+    key <AB08> { type[Group1]="TWO_LEVEL", [ comma, less ] };
+    key <AB09> { type[Group1]="TWO_LEVEL", [ period, greater ] };
+    key <AB10> { type[Group1]="TWO_LEVEL", [ slash, question ] };
+    key <LSGT> { type[Group1]="TWO_LEVEL", [ backslash, bar ] };
+
+    include "level3(ralt_switch)"
+};
+
+// Uzbek (Latin 2026, Turkish-style)
+// Converted from MSKLC file uzlt26t.klc (UzbekKeyboardSetup.exe)
+partial alphanumeric_keys
+xkb_symbols "turkish" {
+    include "us(basic)"
+    name[Group1] = "Uzbek (Latin 2026, Turkish-style)";
+
+    key <AE01> { type[Group1]="TWO_LEVEL", [ 1, exclam ] };
+    key <AE02> { type[Group1]="TWO_LEVEL", [ 2, at ] };
+    key <AE03> { type[Group1]="TWO_LEVEL", [ 3, numbersign ] };
+    key <AE04> { type[Group1]="TWO_LEVEL", [ 4, dollar ] };
+    key <AE05> { type[Group1]="TWO_LEVEL", [ 5, percent ] };
+    key <AE06> { type[Group1]="TWO_LEVEL", [ 6, asciicircum ] };
+    key <AE07> { type[Group1]="TWO_LEVEL", [ 7, ampersand ] };
+    key <AE08> { type[Group1]="TWO_LEVEL", [ 8, asterisk ] };
+    key <AE09> { type[Group1]="TWO_LEVEL", [ 9, parenleft ] };
+    key <AE10> { type[Group1]="TWO_LEVEL", [ 0, parenright ] };
+    key <AE11> { type[Group1]="TWO_LEVEL", [ minus, underscore ] };
+    key <AE12> { type[Group1]="TWO_LEVEL", [ equal, plus ] };
+    key <AD01> { type[Group1]="ALPHABETIC", [ q, Q ] };
+    key <AD02> { type[Group1]="ALPHABETIC", [ w, W ] };
+    key <AD03> { type[Group1]="ALPHABETIC", [ e, E ] };
+    key <AD04> { type[Group1]="ALPHABETIC", [ r, R ] };
+    key <AD05> { type[Group1]="ALPHABETIC", [ t, T ] };
+    key <AD06> { type[Group1]="ALPHABETIC", [ y, Y ] };
+    key <AD07> { type[Group1]="ALPHABETIC", [ u, U ] };
+    key <AD08> { type[Group1]="ALPHABETIC", [ i, I ] };
+    key <AD09> { type[Group1]="ALPHABETIC", [ o, O ] };
+    key <AD10> { type[Group1]="ALPHABETIC", [ p, P ] };
+    key <AD11> { type[Group1]="FOUR_LEVEL_SEMIALPHABETIC", [ odiaeresis, Odiaeresis, bracketleft, braceleft ] };
+    key <AD12> { type[Group1]="FOUR_LEVEL", [ bracketright, braceright, U02BC, U02BB ] };
+    key <AC01> { type[Group1]="ALPHABETIC", [ a, A ] };
+    key <AC02> { type[Group1]="ALPHABETIC", [ s, S ] };
+    key <AC03> { type[Group1]="ALPHABETIC", [ d, D ] };
+    key <AC04> { type[Group1]="ALPHABETIC", [ f, F ] };
+    key <AC05> { type[Group1]="ALPHABETIC", [ g, G ] };
+    key <AC06> { type[Group1]="ALPHABETIC", [ h, H ] };
+    key <AC07> { type[Group1]="ALPHABETIC", [ j, J ] };
+    key <AC08> { type[Group1]="ALPHABETIC", [ k, K ] };
+    key <AC09> { type[Group1]="ALPHABETIC", [ l, L ] };
+    key <AC10> { type[Group1]="FOUR_LEVEL_SEMIALPHABETIC", [ scedilla, Scedilla, semicolon, colon ] };
+    key <AC11> { type[Group1]="FOUR_LEVEL_SEMIALPHABETIC", [ gbreve, Gbreve, apostrophe, quotedbl ] };
+    key <TLDE> { type[Group1]="TWO_LEVEL", [ grave, asciitilde ] };
+    key <BKSL> { type[Group1]="FOUR_LEVEL", [ comma, semicolon, backslash, bar ] };
+    key <AB01> { type[Group1]="ALPHABETIC", [ z, Z ] };
+    key <AB02> { type[Group1]="ALPHABETIC", [ x, X ] };
+    key <AB03> { type[Group1]="ALPHABETIC", [ c, C ] };
+    key <AB04> { type[Group1]="ALPHABETIC", [ v, V ] };
+    key <AB05> { type[Group1]="ALPHABETIC", [ b, B ] };
+    key <AB06> { type[Group1]="ALPHABETIC", [ n, N ] };
+    key <AB07> { type[Group1]="ALPHABETIC", [ m, M ] };
+    key <AB08> { type[Group1]="FOUR_LEVEL_SEMIALPHABETIC", [ ccedilla, Ccedilla, comma, less ] };
+    key <AB09> { type[Group1]="TWO_LEVEL", [ period, greater ] };
+    key <AB10> { type[Group1]="TWO_LEVEL", [ slash, question ] };
+    key <LSGT> { type[Group1]="TWO_LEVEL", [ backslash, bar ] };
+
+    include "level3(ralt_switch)"
+};

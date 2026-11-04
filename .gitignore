@@ -1,0 +1,8 @@
+# Yig'ish natijalari
+uz26_build/
+__pycache__/
+*.pyc
+
+# Asl Windows o'rnatuvchisi repozitoriyga kiritilmaydi
+*.exe
+*.klc
