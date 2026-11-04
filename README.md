@@ -9,7 +9,7 @@ GNOME, KDE Plasma, XFCE, Cinnamon va MATE muhitlarida, X11'da ham, Wayland'da ha
 ## Tez o'rnatish
 
 ```bash
-git clone https://github.com/<foydalanuvchi>/uz-klaviatura-linux.git
+git clone https://github.com/sarvarbyte/uz-klaviatura-linux.git
 cd uz-klaviatura-linux
 sudo python3 uz_klaviatura_linux.py install      # dist/uz26 ni tizimga o'rnatadi
 python3 uz_klaviatura_linux.py gnome classic     # GNOME'ga qo'shadi (classic | direct | turkish)
